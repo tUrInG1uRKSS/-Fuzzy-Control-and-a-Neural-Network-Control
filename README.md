@@ -39,7 +39,7 @@ The system controls an RC circuit modeled as a first-order transfer function:
 
 $$H(s) = \frac{1}{s + 1}$$
 
-*(Assuming $$ \tau = RC = 1 $$)*.
+*(Assuming $$\tau = RC = 1$$)*.
 
 ### 2. Control Strategies
 

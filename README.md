@@ -1,7 +1,7 @@
 # Comparative Study: Fuzzy Control vs. Neural Network Control
 
 ## Overview
-This project investigates and compares the performance of two advanced control strategies—**Fuzzy Logic Control** and **Neural Network Control**—applied to a first-order RC circuit. Both strategies rely on a "expert" Proportional-Integral (PI) controller for baseline performance data and training.
+This project investigates and compares the performance of two advanced control strategies (**Fuzzy Logic Control** and **Neural Network Control**) applied to a first-order RC circuit. Both strategies rely on a "expert" Proportional-Integral (PI) controller for baseline performance data and training.
 
 The study evaluates the efficacy of these methodologies in terms of stability, response time, and robustness, implementing simulations in **MATLAB/Simulink** and **LabVIEW**, with physical validation using a DAQ and oscilloscope.
 
@@ -37,7 +37,7 @@ The study evaluates the efficacy of these methodologies in terms of stability, r
 ### 1. Plant Modeling
 The system controls an RC circuit modeled as a first-order transfer function:
 $$H(s) = \frac{1}{s + 1}$$
-*(Assuming $\tau = RC = 1$)*.
+*(Assuming $ \tau = RC = 1 $)*.
 
 ### 2. Control Strategies
 

@@ -36,21 +36,23 @@ The study evaluates the efficacy of these methodologies in terms of stability, r
 
 ### 1. Plant Modeling
 The system controls an RC circuit modeled as a first-order transfer function:
+
 $$H(s) = \frac{1}{s + 1}$$
-*(Assuming $ \tau = RC = 1 $)*.
+
+*(Assuming $$ \tau = RC = 1 $$)*.
 
 ### 2. Control Strategies
 
 #### A. Expert PI Controller
 Used to generate training data for the Neural Network and heuristic rules for the Fuzzy Controller.
-* **Target Specs:** Settling time $t_s \approx 0.8s$, Damping $\zeta = 0.9285$.
-* **Parameters (from script):** $K_p = 8.1$, $K_i = 42.25$.
+* **Target Specs:** Settling time $t_s \approx 0.8s$, Damping $$\zeta = 0.9285$$.
+* **Parameters (from script):** $$K_p = 8.1$$, $$K_i = 42.25$$.
 
 #### B. Fuzzy Logic Control
 Designed to handle uncertainty using linguistic rules.
 * **Type:** Mamdani.
-* **Inputs:** Error ($e$) and Derivative of Error ($de/dt$).
-* **Output:** Control Signal ($u$).
+* **Inputs:** Error ($e$) and Derivative of Error ($$de/dt$$).
+* **Output:** Control Signal ($$u$$).
 * **Membership Functions:** Gaussian distributions (defined in `man8.fis`).
 
 #### C. Neural Network Control

@@ -4,6 +4,8 @@
 This project investigates and compares the performance of two advanced control strategies (**Fuzzy Logic Control** and **Neural Network Control**) applied to a first-order RC circuit. Both strategies rely on a "expert" Proportional-Integral (PI) controller for baseline performance data and training.
 
 The study evaluates the efficacy of these methodologies in terms of stability, response time, and robustness, implementing simulations in **MATLAB/Simulink** and **LabVIEW**, with physical validation using a DAQ and oscilloscope.
+![IMG_20240706_172102](https://github.com/user-attachments/assets/254677ee-deab-4ea3-8f2a-49848bf351a6)
+
 
 ## Project Authors
 * **Leandro Llontop Herrera**
